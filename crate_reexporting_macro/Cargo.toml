@@ -1,0 +1,7 @@
+[package]
+name = "crate_reexporting_macro"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+crate_exporting_macro = { path = "crate_exporting_macro" }
